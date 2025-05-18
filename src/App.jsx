@@ -82,7 +82,7 @@ function Listextension({ filteredtab }) {
 
 function App() {
   const [listextent, setListextent] = useState(extentdata)
-  const [filtre, setFiltre] = useState('active')
+  const [filtre, setFiltre] = useState('all')
 
   function clic(id) {
     setListextent((prev) =>
